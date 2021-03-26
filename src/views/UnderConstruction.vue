@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div class="under-construction">
     <img class="fadeInDown" src="../assets/sjb-carpentry-dark-transparent.png" />
     <div class="fadeIn">
       <h1>Under construction</h1>
@@ -20,14 +20,14 @@
 </template>
 
 <script>
+
 export default {
-  name: 'Hero',
+  name: 'UnderConstruction',
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.hero {
+.under-construction {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -51,7 +51,7 @@ export default {
   h1 {
     font-weight: 300;
     color: #eae6da;
-    letter-spacing: 0.25rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
     padding: 0 20px;
   }
