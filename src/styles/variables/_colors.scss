@@ -1,0 +1,13 @@
+// Override Bootstrap color system
+
+$black: #2d2d2d;
+
+// Override Bootstrap default state colors
+
+$primary: #b36161;
+
+// Add colors to the color map
+
+$theme-colors: (
+    "black": $black,
+);
